@@ -1,3 +1,34 @@
-*{
-  margin:0;
+/* *{
+  margin:0px;
+} */
+.app{
+  background-color: #F2F3F7;
+  min-height: 100vh;
 }
+
+.app_header{
+  /* height: 100px; */
+  padding: 23px;
+  display :flex;
+  flex-direction: column;}
+.app_top{
+  background-color:white;
+  /* display :flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  /* height: 100px; */
+  padding: 23px;
+}
+
+.app_select_country{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.app_dropdown{
+  min-width: 120 !important;
+  min-height: 40px !important;
+}
+
